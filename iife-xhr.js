@@ -12,5 +12,7 @@ function showHerbivores (herbivores) {
 
 var display = document.getElementById("display");
 
+//this calls the loadCarnivore function from Predator, passing showCarnivor, which is a
+//reference to a function, later to be returned, with the (), thereby invoking it
 Predator.loadCarnivores(showCarnivores);
 Predator.loadHerbivores(showHerbivores);
